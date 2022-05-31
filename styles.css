@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap');
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+  background-color: #02110d;
+
+  background-image: url(img/My-project.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* header {
+  max-width: 800px;
+  margin: 0 auto;
+} */
+
+h1 {
+  font-family: 'Cinzel', serif;
+  margin: 1.5rem auto 0 auto;
+  text-align: center;
+  color: #02110d;
+  font-weight: 900;
+  background-image: linear-gradient(to right,hsla(173, 11%, 14%, 0.377), rgba(255, 255, 255, 0.5), hsl(173, 11%, 14%, 0.377));
+}
+
+p {
+  margin: 1rem auto;
+  text-align: center;
+  color: #02110d;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+
+/* main {
+  margin: 0 auto;
+  max-width: 800px;
+  border: none;
+
+  background-image: url(img/8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  min-height: 100vh;
+  padding: 1rem 0;
+} */
+
+section {
+  margin: 1rem auto 2rem auto;
+  max-width: 600px;
+  width: 75vw;
+  min-width: 350px;
+  /* background-color: hsla(15, 17%, 9%, 0.637); */
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  width: 98%;
+  margin: 0.5rem 0 0 0;
+  padding: 0.3rem;
+  color: #6e7070;
+  /* background-color: #68726f; */
+  border: 1px solid hsla(173, 95%, 9%, 0.479);
+  font-size: 1.1rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  /* vertical-align: middle; */
+}
+
+fieldset {
+  margin: 1rem 0 0 0;
+  /* border: 5px double rgb(104,5,5); */
+  border: 5px double #313b3a;
+  background-color: hsla(165, 80%, 4%, 0.445);
+  letter-spacing: 0.05rem;
+}
+
+legend {
+  color: #02110d;
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right,#313b3abd, rgba(255, 255, 255, 0.5), #313b3abd);;
+}
+
+button {
+  margin: 1rem auto;
+  display: block;
+  width: 60%;
+  padding: 0.2rem;
+  font-size: 1.1rem;
+  font-family: 'Cinzel', serif;
+
+  background-color: hsla(173, 15%, 12%, 0.5);
+  /* background-color: hsla(0, 0%, 0%, 0.5); */
+  color: rgb(245, 245, 245);
+  border: 4px double #313b3a;
+
+  box-shadow: 2px 2px 5px 0 #1b0201;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+button:hover {
+  background-color: hsla(174, 68%, 6%, 0.712);
+  /* border-color: hsla(174, 68%, 6%, 0.8); */
+}
+
+button:active {
+  background-color: hsla(174, 68%, 6%, 0.712);
+}
+
+/* favourite dark color for the theme #051a18 */
+
+/* media-queries */
+
+/* @media screen and (min-width: 576px) {
+  body {
+    background-image: url(images/7.jpg);
+    background-size: 700px;
+  }
+}
+ */
