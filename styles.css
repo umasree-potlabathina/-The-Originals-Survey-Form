@@ -85,10 +85,16 @@ button {
 
   box-shadow: 2px 2px 5px 0 #1b0201;
   cursor: pointer;
+  transition: background-color 0.15s;
 }
 
 button:hover {
   background-color: hsla(174, 68%, 6%, 0.712);
 }
+
+button:active {
+  background-color: hsla(174, 68%, 6%, 0.712);
+}
+
 
 /* favourite dark color for the theme #051a18 */
