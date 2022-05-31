@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap');
+
+body {
+  font-family: arial;
+  font-size: 1.2rem;
+  color: #320A07;
+  background-image: url(img/annie-spratt-7CME6Wlgrdk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  margin: 1.5rem auto;
+  text-align: center;
+  color: #320A07;
+  font-weight: 900;
+}
+
+p {
+  margin: 1rem auto;
+  text-align: center;
+  color: #320A07;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+section {
+  margin: 1rem auto;
+  max-width: 600px;
+  width: 75vw;
+  min-width: 350px;
+  /* background-color: hsla(15, 17%, 9%, 0.637); */
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  width: 98%;
+  margin: 0.5rem 0 0 0;
+  padding: 0.3rem;
+  color: #320A07;
+  background-color: whitesmoke;
+  border: 1px solid hsla(4, 75%, 11%, 0.5);
+  font-size: 1.1rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  /* vertical-align: middle; */
+}
+
+fieldset {
+  margin: 1rem 0 0 0;
+  /* border: 5px double rgb(104,5,5); */
+  border: 5px double #320A07;
+  background-color: hsla(4, 75%, 11%, 0.3);
+}
+
+legend {
+  color: #1b0201;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+button {
+  margin: 1rem auto;
+  display: block;
+  width: 60%;
+  padding: 0.2rem;
+  font-size: 1.1rem;
+  font-family: 'Cinzel', serif;
+
+  background-color: hsla(4, 75%, 11%, 0.3);
+  color: #5c5451;
+  border: 4px double #320A07;
+
+  box-shadow: 2px 2px 5px 0 #1b0201;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(4, 75%, 11%, 0.5);
+}
