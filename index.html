@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surevy Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <header>
+        <h1 id="title">' The Originals ' Survey Form</h1>
+        <p id="description">Fill this to find out which character you are from ' The Originals '</p>
+    </header>
+    <main>
+        <section>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label">What's your Name? <input type="text" id="name" name="name" required placeholder="your name"></label>
+                    <label id="email-label">Email: <input type="email" id="email" name="email" required placeholder="email id"></label>
+                    <label id="number-label">How old are you? <input type="number" id="number" name="number" min="16" max="110" required placeholder="your age"></label>
+                    <label> Who's your favourite Mikaelson Vampire? <select id="dropdown">
+                        <option>Select One</option>
+                        <option>Niklaus Mikaelson</option>
+                        <option>Elijah Mikaelson </option>
+                        <option>Rebekah Mikaelson</option>
+                        <option>Kol Mikaelson</option>
+                        <option>Finn Mikaelson</option>
+                    </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Who would you rather pick?</legend>
+                    <label><input type="radio" name="character" value="klaus"> Klaus Mikaelson</label>
+                    <label><input type="radio" name="character" value="hayley"> Hayley Marshall</label>
+                    <label><input type="radio" name="character" value="marcel"> Marcel Gerard</label>
+                    <label><input type="radio" name="character" value="vincent"> Vincent Griffith</label>
+                </fieldset>
+                <fieldset>
+                       <legend>Favourite ' Character Type ' ?</legend>
+                       <label><input type="radio" name="character" value="hero"> Hero</label>
+                       <label><input type="radio" name="character" value="villian"> Villian</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick your traits</legend>
+                    <label><input type="checkbox" value="patience"> Patience</label>
+                    <label><input type="checkbox" value="empathy"> Empathy</label>
+                    <label><input type="checkbox" value="bad-temper"> Bad-Temper</label>
+                    <label><input type="checkbox" value="jealousy"> Jealousy</label>
+                    <label><input type="checkbox" value="recklessness"> Recklessness</label>
+                    <label><input type="checkbox" value="cautious"> Cautious</label>
+                                                                       
+                </fieldset>
+                <fieldset>
+                    <legend>Write more about you...</legend>
+                    <label><textarea name="details" rows="5" cols="30" placeholder="What is your personality like?"></textarea></label>
+                </fieldset>
+                <button id="submit" type="submit">Submit</button>
+                <button id="reset" type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
