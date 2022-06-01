@@ -25,7 +25,8 @@ body {
 h1, p, footer {
   text-align: center;
   margin: 0.5rem 0;
-  font-family: Impact, 'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
@@ -49,7 +50,7 @@ input, select, textarea {
   font-size: 1rem;
   padding: 0.2rem;
   background-color: rgba(0, 0, 0, 0.055);
-  color: #2b2128;
+  color: #160f14;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -57,12 +58,9 @@ input[type="radio"], input[type="checkbox"] {
   margin: 0 0.25rem 0 0;
 }
 
-select {
-  color: gray;
-}
-
 legend {
- font-family: Impact, 'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-family:'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-weight: bold;
 }
 
 fieldset {
@@ -76,7 +74,8 @@ fieldset {
 } */
 
 button {
-  font-family: Impact, 'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
   padding: 0.3rem 0.5rem;
   width: 60%;
   font-size: 1.1rem;
