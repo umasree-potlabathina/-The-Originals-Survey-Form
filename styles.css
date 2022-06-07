@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+html {
+  position: relative;
+  
+.shadow {
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.363);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 body {
   margin: 0 auto;
   padding: 2rem;
@@ -125,3 +137,8 @@ footer {
   font-size: 2rem;
   color: #AB8FA5;
 }
+  
+header, main, footer {
+  z-index: 10;
+  position: relative;
+}  
