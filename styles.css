@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+position: relative;
+} */
+
+body {
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  max-width: 600px;
+  /* border-left: 5px double black;
+  border-right: 5px double black; */
+  /* background-color: #C97985; */
+
+  background-image: url(../sky/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #30282e;
+}
+
+/* .shadow {
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
+
+h1, p, footer {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-family:'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  color: rgb(114, 33, 33);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 3px red;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1.7rem 0;
+}
+
+main {
+  margin: 1rem auto;
+  font-size: 1.1rem;
+}
+
+label {
+  display: block;
+  margin: 0.3rem 0 0.3rem 0.6rem; 
+}
+
+input, select, textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 98%;
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  padding: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.055);
+  border-color: hsla(353, 23%, 27%, 0.5);
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(224, 149, 136);
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.25rem 0 0;
+}
+
+legend {
+ font-family:'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-weight: 800;
+ color: rgb(0, 0, 0);
+ margin-bottom: 0.2rem;
+ font-size: 1.2rem;
+
+  /* background-image: linear-gradient(to left, hsla(346, 27%, 31%, 0.5), hsla(353, 33%, 39%, 0.5), hsla(347, 27%, 43%, 0.5));
+  border-radius: 0.5em; */
+}
+
+fieldset {
+  padding: 0.3rem 0.6rem;
+  margin: 1.2rem 0;
+
+  /* background-image: linear-gradient(to right,rgba(68, 46, 52, 0.7), rgba(59, 59, 80, 0.7), rgba(68, 46, 52, 0.7)); */
+
+  background: hsla(0, 57%, 86%, 0.1);
+  box-shadow: 2px 2px 5px 2px hsla(315, 9%, 17%, 0.7);
+
+  border: none;
+  border-radius: 10px;
+}
+
+fieldset:nth-child(5) {
+  margin-bottom: 2rem;
+}
+
+button {
+  font-family:'Cinzel', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+  width: 60%;
+  font-size: 1.2rem;
+
+  display: block;
+  margin: 1rem auto;
+
+  color: black;
+  background: transparent;
+  /* background-color: rgba(255, 240, 245, 0.1); */
+  /* border: 2px solid hsla(359, 91%, 86%, 0.5); */
+  border: none;
+  transition: background-color 0.15s;
+  cursor: pointer;
+
+  box-shadow: 0 0 3px 0 hsla(320, 60%, 93%, 0.7);
+}
+
+button:hover {
+  background-color: hsla(354, 36%, 43%, 0.6);
+}
+
+button:active {
+  background-color:hsla(354, 36%, 43%);
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #AB8FA5;
+}
+
+header, main, footer {
+  z-index: 10;
+  position: relative;
+}
