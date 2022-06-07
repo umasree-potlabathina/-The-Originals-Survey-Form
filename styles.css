@@ -44,12 +44,12 @@ h1, p, footer {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-shadow: 1px 1px 3px red;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 1.7rem 0;
 }
 
@@ -74,7 +74,7 @@ input, select, textarea {
 }
 
 input::placeholder, textarea::placeholder {
-  color: rgb(224, 149, 136);
+  color: rgb(230, 117, 97);
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -121,13 +121,14 @@ button {
   margin: 1rem auto;
 
   color: black;
-  background: transparent;
+  /* background: transparent; */
   /* background-color: rgba(255, 240, 245, 0.1); */
   /* border: 2px solid hsla(359, 91%, 86%, 0.5); */
   border: none;
   transition: background-color 0.15s;
   cursor: pointer;
-
+  
+  background: hsla(0, 57%, 86%, 0.1);
   box-shadow: 0 0 3px 0 hsla(320, 60%, 93%, 0.7);
 }
 
